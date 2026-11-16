@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album hình ảnh sống mãi với thời gian</title>
+    <!-- Nhúng thư viện Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .header-section {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: none;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+        .card-img-top {
+            height: 220px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Phần Header / Tiêu đề trang -->
+    <header class="header-section">
+        <div class="container">
+            <h1 class="display-5 fw-bold">Album hình ảnh sống mãi với thời gian</h1>
+            <p class="lead">Bộ sưu tập khoảnh khắc kỷ niệm tuyệt vời và đáng nhớ</p>
+        </div>
+    </header>
+
+
+    <!-- Khung hiển thị ảnh dạng lưới (Bootstrap Grid) -->
+    <div class="container mb-5">
+        <div class="row g-4">
+           
+            <!-- Ảnh 1 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" class="card-img-top img-fluid" alt="Phong cảnh thiên nhiên">
+                    <div class="card-body">
+                        <h5 class="card-title">Thiên nhiên hùng vĩ</h5>
+                        <p class="card-text text-muted">Khoảnh khắc bình minh tuyệt đẹp trên vùng núi cao.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Ảnh 2 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" class="card-img-top img-fluid" alt="Rừng cây xanh mát">
+                    <div class="card-body">
+                        <h5 class="card-title">Rừng nguyên sinh</h5>
+                        <p class="card-text text-muted">Ánh nắng xuyên qua những tán lá sớm mai.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Ảnh 3 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="card h-100">
+                    <img src="https://png.pngtree.com/thumb_back/fw800/background/20260323/pngtree-serene-lake-surrounded-by-lush-greenery-and-tall-grasses-image_21213305.webp" class="card-img-top img-fluid" alt="Hồ nước trong xanh">
+                    <div class="card-body">
+                        <h5 class="card-title">Hồ nước tĩnh lặng</h5>
+                        <p class="card-text text-muted">Mặt hồ phản chiếu bầu trời xanh ngát một màu.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Ảnh 4 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6" class="card-img-top img-fluid" alt="Đồi núi sương mù">
+                    <div class="card-body">
+                        <h5 class="card-title">Sương mù buổi sớm</h5>
+                        <p class="card-text text-muted">Làn sương mờ ảo che phủ những ngọn đồi xanh.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Ảnh 5 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716" class="card-img-top img-fluid" alt="Thác nước chảy">
+                    <div class="card-body">
+                        <h5 class="card-title">Dòng thác mạnh mẽ</h5>
+                        <p class="card-text text-muted">Vẻ đẹp hoang sơ của dòng thác giữa đại ngàn.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Ảnh 6 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" class="card-img-top img-fluid" alt="Bãi biển hoàng hôn">
+                    <div class="card-body">
+                        <h5 class="card-title">Hoàng hôn trên biển</h5>
+                        <p class="card-text text-muted">Ánh chiều tà rực rỡ buông xuống mặt biển yên bình.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-white border-top">
+        <p class="text-muted mb-0">&copy; 2026 Nguyễn Quốc Anh - Bài tập Lập trình Web</p>
+    </footer>
+
+
+    <!-- Nhúng Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
